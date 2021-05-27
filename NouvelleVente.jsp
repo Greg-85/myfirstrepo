@@ -8,6 +8,7 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet"  href="../css/style.css">
+<link rel="stylesheet" href="/webapp/CSS/datepicker.css">
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -16,8 +17,8 @@
 <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
 <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
 
-<script src="jsp/js/jquery-ui.min.js"></script>
-<script src="jsp/js/datepicker_fr.js"></script>
+<script src="/webapp/js/jquery-ui.min.js"></script>
+<script src="/webapp/js/datepicker_fr.js"></script>
 <script type="text/javascript">
      $.datepicker.setDefaults($.datepicker.regional["fr"]);
      $( "#datepicker").datepicker();
