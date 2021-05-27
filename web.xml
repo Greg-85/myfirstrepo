@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaeehttp://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+ <display-name>Enchere</display-name>
+  <welcome-file-list>
+    <welcome-file>Accueil</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>Accueil</servlet-name>
+  	<jsp-file>/WEB-INF/jsp/Accueil.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Accueil</servlet-name>
+  	<url-pattern>/accueil</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>Inscription</servlet-name>
+  	<jsp-file>/WEB-INF/jsp/Inscription.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Inscription</servlet-name>
+  	<url-pattern>/inscription</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>Index</servlet-name>
+  	<jsp-file>/WEB-INF/jsp/Index.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Index</servlet-name>
+  	<url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>Afficher_profil</servlet-name>
+  	<jsp-file>/WEB-INF/jsp/Afficher_profil.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Afficher_profil</servlet-name>
+  	<url-pattern>/afficher_profil</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  	<servlet-name>Header</servlet-name>
+  	<jsp-file>/WEB-INF/jsp/Header.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Header</servlet-name>
+  	<url-pattern>/Header</url-pattern>
+  </servlet-mapping>
+  
+       <servlet>
+  	<servlet-name>DetailVente</servlet-name>
+  	<jsp-file>/WEB-INF/jsp/DetailVente.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DetailVente</servlet-name>
+  	<url-pattern>/DetailVente</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+  	<servlet-name>ServletNouvelleVente</servlet-name>
+  	<jsp-file>/WEB-INF/jsp/NouvelleVente.jsp</jsp-file>	
+    </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>NouvelleVente</servlet-name>
+  	<url-pattern>/NouvelleVente</url-pattern>
+  </servlet-mapping>
+</web-app>
